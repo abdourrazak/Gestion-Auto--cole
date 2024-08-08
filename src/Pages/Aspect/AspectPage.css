@@ -1,0 +1,36 @@
+.aspect-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .aspect-page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .aspect-items-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Quatre colonnes */
+    gap: 20px; /* Ajuste l'espacement entre les blocs */
+    width: 100%;
+    max-width: 1200px; /* Limite la largeur maximale */
+  }
+  
+  .aspect-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 10px 0;
+  }
+  
+  .aspect-icon {
+    width: 10px; /* Ajuste la largeur de l'icône */
+    height: 50px; /* Ajuste la hauteur de l'icône */
+    margin-right: 10px;
+    background: linear-gradient(to right, #8e2de2, #4a00e0); /* Couleur spécifiée dans l'image */
+  }
+  

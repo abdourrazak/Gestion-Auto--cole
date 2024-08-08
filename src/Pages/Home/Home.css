@@ -1,0 +1,51 @@
+.formation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  height: 100vh;
+  justify-content: center;
+}
+
+.formation-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.formation-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: dimgray;
+  margin-bottom: 20px;
+  line-height: 1.2; /* Ajuster l'espacement entre les lignes si nécessaire */
+}
+
+.formation-description {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  line-height: 1.4; /* Ajuster l'espacement entre les lignes si nécessaire */
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.inscription-button {
+  background-color: #007bff;
+  color: white;
+  border-radius: 12px; /* Ajustez cette valeur pour un arrondi plus ou moins prononcé */
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none; /* Ajouté pour supprimer la bordure par défaut */
+  transition: background-color 0.3s ease; /* Ajouté pour une transition douce */
+}
+
+.inscription-button:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+}
+

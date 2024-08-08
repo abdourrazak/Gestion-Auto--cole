@@ -1,0 +1,41 @@
+.test-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.test-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.test-item {
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+.test-item img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.test-item h3 {
+  margin: 10px 0;
+  font-size: 1.4em;
+}
+
+.test-item p {
+  font-size: 1em;
+  color: #666;
+}
+
+.Titre {
+  font-size: 2.1em;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  color: hwb(0 40% 60%);
+}

@@ -1,0 +1,209 @@
+/* src/pages/Inscription/Inscription.css */
+.inscription-container {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 80px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    margin-top: 15px;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .logout {
+    font-size: 1em;
+    color: gray;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 850px;
+  }
+  
+  .logout i {
+    margin-right: 5px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Utilisez flex-grow pour occuper l'espace restant */
+    margin-top: 1px; /* Ajuster en fonction de la hauteur de l'en-tête */
+    text-align: center;
+    margin-left: 300pxpx;
+    margin-top: 20px;
+  }
+  
+  .title {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(13, 12, 23, 0.733);
+    margin-bottom: 30px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .step {
+    font-size: 1.2em;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    color: gray;
+  }
+  
+  .step.active {
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-offer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .offer {
+    margin-left: 50px;
+  }
+  
+  .offer, .form {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 45%;
+  }
+  
+  .offer-image {
+    width: 250px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+  }
+  
+  .price {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .trial {
+    color: #007bff;
+    margin-bottom: 20px;
+    margin-left: 120px;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: green;
+    margin-left: 120px;
+  }
+  
+  .features li {
+    margin-bottom: 10px;
+  }
+  
+  .form h3 {
+    margin-bottom: 10px;
+  }
+
+  .connect {
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .form p {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .form-group input {
+    width: 50%;
+    height: 20px;
+    max-width: 700px; /* Réduire la longueur */
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: white; /* Couleur de fond blanche */
+    color: black; /* Couleur du texte noire pour s'assurer que le texte est visible */
+    border: 1px solid #ccc; /* Bordure grise pour mieux distinguer */
+    border-radius: 4px; /* Bordure arrondie pour un look plus moderne */
+  }
+  
+  .form-group input:focus {
+    border-color: #80bdff; /* Couleur de bordure bleue lors de la mise au point */
+    outline: none; /* Supprimer le contour par défaut */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ajouter une ombre pour indiquer la mise au point */
+  }
+  
+  
+  .form-group span {
+    color: red;
+  }
+  
+  .input-icon {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .input-icon input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding-left: 10px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 150px;
+    margin-top: 15px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  

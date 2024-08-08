@@ -1,0 +1,44 @@
+/* src/components/Header/Header.css */
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 1.9rem;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 35px;
+    margin-top: 5px;
+  }
+
+  .logo-img {
+    height: 39px; /* Adjust the size as needed */
+    margin-right: 10px; /* Space between the logo and text */
+  }
+  
+  nav a {
+    text-decoration: none;
+  }
+  
+  nav button {
+    font-weight: bold;
+  }
+
+  nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-family: "Ubuntu", sans-serif;
+  }

@@ -3,6 +3,7 @@ import './Home.css';
 import roadIcon from './assets/code-de-la-route.svg';
 import { useInView } from 'react-intersection-observer';
 import { useSpring, animated } from 'react-spring';
+import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
   const animationConfig = {
@@ -44,7 +45,7 @@ const Home: React.FC = () => {
         à l’examen du code !
       </animated.p>
       <animated.button className="inscription-button" style={buttonAnimation}>
-        S’inscrire gratuitement
+      <Link to="/inscription" className='para'>S’inscrire gratuitement</Link>
       </animated.button>
     </div>
   );

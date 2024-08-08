@@ -1,0 +1,148 @@
+.header-connexion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 80px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Pour s'assurer que le header est au-dessus des autres éléments */
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #3b3bff; /* Couleur bleue pour le logo */
+    font-family: 'Ubunto', sans-serif;
+    margin-bottom: 1000px;
+  }
+  
+  .create-account {
+    margin-left: auto; /* Pour pousser l'élément à droite */
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: 'Ubunto', sans-serif;
+    margin-top: 25px;
+  }
+  
+  .create-account:hover {
+    color: #007bff; /* Change la couleur lors du survol */
+    transition: color 0.3s ease;
+  }
+ 
+  /* Connexion.css */
+.connexion-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px; /* Ajuster pour laisser de la place à l'en-tête */
+}
+
+.contente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  margin-left: 470px;
+}
+
+.connexion-title {
+  font-size: 1.6em; /* Ajustez cette valeur selon vos besoins */
+  font-weight: normal; /* Si vous voulez également changer le poids de la police */
+  margin-bottom: 20px;
+  color: #000000d8;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.password-input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.password-input-wrapper input {
+  width: calc(100% - 40px);
+  padding-right: 40px;
+}
+
+.password-icon {
+  position: absolute;
+  left: 300px;
+  cursor: pointer;
+  color: gray;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.forgot-password {
+  color: #3b3bff;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.stay-connected {
+  display: flex;
+  align-items: center;
+}
+
+.stay-connected input {
+  margin-right: 5px;
+   color: #007bff;
+}
+
+.submit-button {
+  display: block;
+  width: 100%; /* S'étendre à la largeur complète de son conteneur parent */
+  max-width: 300px; /* Ajuster cette valeur selon vos besoins */
+  margin: 20px auto; /* Centrer horizontalement */
+  padding: 10px 20px;
+  background-color: #6C63FF; /* Couleur de fond */
+  color: white;
+  border: none;
+  border-radius: 25px; /* Arrondir les coins */
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+}
+
+.submit-button:hover {
+  background-color: #5a52cc; /* Couleur de fond au survol */
+}

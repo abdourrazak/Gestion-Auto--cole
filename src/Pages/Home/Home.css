@@ -33,8 +33,8 @@
 }
 
 .inscription-button {
-  background-color: #007bff;
-  color: white;
+  background-color: #1e00ff;
+  color: rgba(0, 0, 0, 0.531);
   border-radius: 12px; /* Ajustez cette valeur pour un arrondi plus ou moins prononcé */
   padding: 10px 20px;
   font-size: 1em;
@@ -42,7 +42,13 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   border: none; /* Ajouté pour supprimer la bordure par défaut */
-  transition: background-color 0.3s ease; /* Ajouté pour une transition douce */
+  transition: background-color 0.1s ease; /* Ajouté pour une transition douce */
+}
+.para {
+  color: white;
+}
+.para:hover {
+  color: #0089b3;
 }
 
 .inscription-button:hover {

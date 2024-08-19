@@ -9,6 +9,8 @@ import AspectPage from './Pages/Aspect/AspectPage';
 import Footer from './Pages/Footer/Footer';
 import Inscription from './Pages/Inscription/Inscription';
 import Connexion from './Pages/Connexion/Connexion';
+import CodeAuto from './Pages/Code_Auto/Code_Auto';
+import Circulation from './Pages/Circulation/Circulation';
 
 const App: React.FC = () => {
   return (
@@ -28,6 +30,8 @@ const App: React.FC = () => {
         } />
         <Route path="/inscription" element={<Inscription />} />
         <Route path="/Connexion"   element={<Connexion />} />
+        <Route path='/Code_Auto' element={<CodeAuto />} />
+        <Route path='/Circulation' element={<Circulation />} />
       </Routes>
     </Router>
   );

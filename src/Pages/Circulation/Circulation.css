@@ -1,0 +1,89 @@
+.circulation-container {
+    width: 100%;
+    background: linear-gradient(to top, #ffffff, #32337196);
+    padding-top: 0;
+    margin-bottom: 400px;
+    text-align: center;
+  }
+  
+  .circulation-header {
+    padding: 20px;
+  }
+  
+  .circulation-title {
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #4b1e0f; /* Marron-orange pour le titre */
+  }
+  
+  .circulation-description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #333;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+  
+  .circulation-button {
+    background-color: #0004ff6e; /* Couleur de fond */
+    color: white;
+    padding: 10px 40px; /* Taille ajustée du bouton */
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 540px;
+    width: 150px;
+  }
+
+  .circulation-button .arrow {
+    margin-left: 20px; /* Espacement entre le texte et la flèche */
+    font-size: 1.5rem; /* Taille de la flèche */
+  }
+
+  .circulation-button:hover {
+    background-color: #1280c4; /* Assombrir le bouton au hover */
+  }
+
+
+  .circulation-title {
+    color: #e63946; /* Couleur rouge pour le titre */
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.badge-primary {
+    background-color: #35573c; /* Couleur rouge pour le badge */
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.badge-light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff; /* couleur de fond blanche */
+  color: #000000; /* couleur de la flèche (noir par défaut) */
+  font-size: 14px;
+  cursor: pointer;
+}
+

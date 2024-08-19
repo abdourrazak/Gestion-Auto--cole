@@ -10,7 +10,7 @@ const Header: React.FC = () => {
         <span className="text-primary">Easy</span>
       </div>
       <nav>
-        <Link to="/" className="text-primary mx-2">Code de la route</Link>
+        <Link to="/Code_Auto" className="text-primary mx-2">Code de la route</Link>
         <Link to="/inscription" className="text-black mx-2">Inscription</Link>
         <Link to="/Connexion" className="btn btn-outline-primary">Connexion</Link>
       </nav>

@@ -1,0 +1,39 @@
+.header-container {
+    background: linear-gradient(to right, #1a109063, #370db5d5);
+    color: white;
+  }
+  
+  .header-title {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3rem;
+  }
+  
+  .text-content {
+    color: black;
+    background-color: #ffffff;
+  }
+
+  body, .header-title, .card-title, .card-text, .text-content p, .text-danger {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+  .card {
+    transition: background-color 0.3s ease;
+  }
+  
+  .card:hover {
+    background-color: #2da0878b; /* Marron-orange */
+    border-color: #a0512d71; /* Change la couleur de la bordure également si nécessaire */
+  }
+  
+  .card-title, .card-text, .text-danger {
+    transition: color 0.3s ease;
+  }
+  
+  .card:hover .card-title,
+  .card:hover .card-text,
+  .card:hover .text-danger {
+    color: #FFFFFF; /* Couleur du texte en survol */
+  }
+  
+  

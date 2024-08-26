@@ -2,7 +2,6 @@
     width: 100%;
     background: linear-gradient(to top, #ffffff, #32337196);
     padding-top: 0;
-    margin-bottom: 400px;
     text-align: center;
   }
   
@@ -63,7 +62,7 @@
     margin-bottom: 10px;
     padding: 10px 20px;
     font-size: 16px;
-    color: #333;
+    color: #773bbc;
 }
 
 .badge-primary {
@@ -85,5 +84,9 @@
   color: #000000; /* couleur de la flèche (noir par défaut) */
   font-size: 14px;
   cursor: pointer;
+}
+
+Footer {
+  height: 100%;
 }
 

@@ -1,14 +1,16 @@
 import React, { useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Circulation.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from '../Footer/Footer';
 
 const Circulation: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [isOpen2, setIsOpen2] = useState(false);
-  const [isOpen3, setIsOpen3] = useState(false);
-  const [isOpen4, setIsOpen4] = useState(false);
-  const [isOpen5, setIsOpen5] = useState(false);
-  const [isOpen6, setIsOpen6] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen2, setIsOpen2] = useState(true);
+  const [isOpen3, setIsOpen3] = useState(true);
+  const [isOpen4, setIsOpen4] = useState(true);
+  const [isOpen5, setIsOpen5] = useState(true);
+  const [isOpen6, setIsOpen6] = useState(true);
   const sectionRef = useRef<HTMLDivElement>(null);
 
   const toggleOpen = () => {
@@ -134,8 +136,8 @@ const Circulation: React.FC = () => {
 
       {/* Nouvelle section 1 */}
       <div className="container mt-3">
-        <div id="section-signalisation" className="section-header bg-dark text-white p-3 mb-3 d-flex justify-content-between align-items-center">
-          <h4 className="m-0">01 Comprendre la signalisation</h4>
+        <div id="section-signalisation" className="section-header bg-secondary text-white p-3 mb-3 d-flex justify-content-between align-items-center">
+          <h4 className="m-0 text-dark">01 Comprendre la signalisation</h4>
           {/* Remplacement de '6 cours' par l'icône de flèche */}
           <span
             className="badge badge-light rounded-circle d-flex align-items-center justify-content-center"
@@ -147,31 +149,37 @@ const Circulation: React.FC = () => {
         </div>
 
         {isOpen && (
-          <div className="container mt-3">
-            <div className="list-group">
-              {[
-                'La lecture des panneaux',
-                'Les types de panneaux',
-                'Les bornes et les balises',
-                'Le marquage au sol',
-                'L’essentiel à retenir',
-              ].map((item, index) => (
-                <div
-                  className="list-group-item list-group-item-action d-flex align-items-center justify-content-between"
-                  key={index}
-                >
+        <div className="container mt-3">
+          <div className="list-group">
+            {[
+              'La lecture des panneaux',
+              'Les types de panneaux',
+              'Les bornes et les balises',
+              'Le marquage au sol',
+              'L’essentiel à retenir',
+            ].map((item, index) => (
+              <div
+                className="list-group-item list-group-item-action d-flex align-items-center justify-content-between"
+                key={index}
+              >
+                {item === 'La lecture des panneaux' ? (
+                  <Link to="/lecture_des_panneaux">
+                    <span>{item}</span>
+                  </Link>
+                ) : (
                   <span>{item}</span>
-                  <span className="badge badge-primary rounded-pill">Cours</span>
-                </div>
-              ))}
-            </div>
+                )}
+                <span className="badge badge-primary rounded-pill">Cours</span>
+              </div>
+            ))}
           </div>
-        )}
+        </div>
+      )}
       </div>
    {/* Nouvelle section 2 */}
    <div className="container mt-3">
-        <div id="section-intersection" className="section-header bg-dark text-white p-3 mb-3 d-flex justify-content-between align-items-center">
-          <h4 className="m-0" onClick={toggleOpen2} style={{ cursor: 'pointer' }}>02 Franchir une intersection</h4>
+        <div id="section-intersection" className="section-header bg-secondary text-white p-3 mb-3 d-flex justify-content-between align-items-center">
+          <h4 className="m-0 text-dark" onClick={toggleOpen2} style={{ cursor: 'pointer' }}>02 Franchir une intersection</h4>
           <span
             className="badge badge-light rounded-circle d-flex align-items-center justify-content-center"
             style={{ width: '30px', height: '30px', cursor: 'pointer' }}
@@ -206,8 +214,8 @@ const Circulation: React.FC = () => {
 
       {/* Nouvel Section 3 */}
       <div className="container mt-3">
-        <div id="section-circuler" className="section-header bg-dark text-white p-3 mb-3 d-flex justify-content-between align-items-center">
-          <h4 className="m-0">03 Circuler</h4>
+        <div id="section-circuler" className="section-header bg-secondary text-white p-3 mb-3 d-flex justify-content-between align-items-center">
+          <h4 className="m-0 text-dark">03 Circuler</h4>
           {/* Remplacement de '6 cours' par l'icône de flèche */}
           <span
             className="badge badge-light rounded-circle d-flex align-items-center justify-content-center"
@@ -241,8 +249,8 @@ const Circulation: React.FC = () => {
 
       {/* Nouvel Section 4 */}
       <div className="container mt-3">
-        <div id="section-Croiser" className="section-header bg-dark text-white p-3 mb-3 d-flex justify-content-between align-items-center">
-          <h4 className="m-0">04 Croiser et dépasser</h4>
+        <div id="section-Croiser" className="section-header bg-secondary text-white p-3 mb-3 d-flex justify-content-between align-items-center">
+          <h4 className="m-0 text-dark" >04 Croiser et dépasser</h4>
           {/* Remplacement de '6 cours' par l'icône de flèche */}
           <span
             className="badge badge-light rounded-circle d-flex align-items-center justify-content-center"
@@ -281,8 +289,8 @@ const Circulation: React.FC = () => {
 
       {/* Nouvelle section 5 */}
       <div className="container mt-3">
-        <div id="section-vitesse" className="section-header bg-dark text-white p-3 mb-3 d-flex justify-content-between align-items-center">
-          <h4 className="m-0">05 Gérer sa vitesse</h4>
+        <div id="section-vitesse" className="section-header bg-secondary text-white p-3 mb-3 d-flex justify-content-between align-items-center">
+          <h4 className="m-0 text-dark">05 Gérer sa vitesse</h4>
           {/* Remplacement de '6 cours' par l'icône de flèche */}
           <span
             className="badge badge-light rounded-circle d-flex align-items-center justify-content-center"
@@ -318,8 +326,8 @@ const Circulation: React.FC = () => {
       </div>
  {/* Nouvelle section 6 */}
  <div className="container mt-3">
-        <div id="section-Stationner" className="section-header bg-dark text-white p-3 mb-3 d-flex justify-content-between align-items-center">
-          <h4 className="m-0">06 Stationner - S'arrêter</h4>
+        <div id="section-Stationner" className="section-header bg-secondary text-white p-3 mb-3 d-flex justify-content-between align-items-center">
+          <h4 className="m-0 text-dark">06 Stationner - S'arrêter</h4>
           {/* Remplacement de '6 cours' par l'icône de flèche */}
           <span
             className="badge badge-light rounded-circle d-flex align-items-center justify-content-center"
@@ -354,8 +362,7 @@ const Circulation: React.FC = () => {
           </div>
         )}
       </div>
-
-
+      <Footer />
     </div>
   );
 };

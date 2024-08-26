@@ -1,0 +1,97 @@
+.lecture-des-panneaux-container {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .breadcrumb-container {
+    margin-top: 10px;
+  }
+
+  .breadcrumb-item.active {
+    color: rgb(0, 81, 255);
+}
+  
+  .breadcrumb {
+    font-size: 0.875rem; /* Texte légèrement petit */
+    color: #6c757d; /* Couleur par défaut des breadcrumbs */
+  }
+  
+  .breadcrumb-item a {
+    color: black;
+  }
+  
+  .header-container {
+    background: linear-gradient(90deg, #f9a70258 0%, #0044d6 100%);
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 27px;
+  }
+  
+  .header-container h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .content-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Fond différent après "Signaler" */
+    text-align: center;
+  }
+  
+  .signal-button {
+    padding: 5px 10px;
+    margin-bottom: 20px;
+  }
+
+  .signal-button i {
+    margin-right: 5px; /* Espace entre l'icône et le texte */
+    color: #d64e00; /* Couleur de l'icône */
+  }
+  
+  
+  .description, .additional-info {
+    color: #343a40;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+
+  /* nouveua */
+  .section-signals {
+    padding: 20px;
+    background-color: #ffffff; /* Couleur de fond blanche */
+    margin-left: 120px;
+  }
+  
+  .section-signals h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-signals ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .section-signals li {
+    margin-bottom: 5px;
+  }
+  
+  .section-signals p {
+    margin-bottom: 10px;
+  }
+  .section-icons{
+    margin-left: 120px;
+  }
+
+  .next-lesson {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px; /* Ajuste la marge selon tes besoins */
+    margin-top: 20px; /* Optionnel : Ajuste selon l'espacement souhaité */
+  }
+
+  .panneaux-section{
+    margin-left: 120px;
+  }
+  
